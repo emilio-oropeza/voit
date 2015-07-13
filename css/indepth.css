@@ -55,7 +55,7 @@
 .indepth_share_item.whatsapp:hover{
 	background-color: #85D86D;
 }
-@media(max-width: 700px;){
+@media(max-width: 700px){
 	.indepth_share_item.whatsapp{
 		display: block;
 	}
