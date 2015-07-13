@@ -1,4 +1,8 @@
 #preload{display: none;}
+#nav-bar-wrapper,
+#recommended-wrapper {
+  display: none;
+}
 #indepth_content{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
