@@ -1,0 +1,364 @@
+#indepth_content{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #838383;
+}
+.indepth_element{
+	display: block;
+	height: 800px;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#indepth_cover{
+	background-image: url("../images/Portada.jpg");
+}
+#indepth_ball{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 133px;
+	top: 0;
+	background-image: url("../images/360/1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+#indepth_text{
+	height: 750px;
+}
+#text_container{
+	width: 600px;
+	display: table;
+	margin: auto;
+	padding-top: 113px;
+}
+#text_cita {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+}
+#text_credit {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+#text_credit span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#text_separator{
+	width: 50px;
+	border-top: 1px solid #838383;
+	margin: auto;
+}
+#text_hist {
+	font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    margin-top: 52px;
+}
+#indepth_billboard{
+	background-image: url("../images/Billboard.jpg");
+}
+#indepth_info{
+	height: 1540px;
+	background-image: url("../images/Fondo_info.jpg");
+}
+#indepth_caract {
+    height: 893px;
+    width: 988px; 
+    margin: auto;
+    position: relative;
+}
+.caract_element{
+	position: absolute;
+}
+#caract_ball{
+	background-image: url("../images/Caracteristicas/Balon_capas.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 410px;
+	height: 460px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 187px;
+}
+.caract_info{
+	width: 280px;
+	height: 275px;
+	z-index: 2;
+	text-align: center;
+	color: #FFFFFF;
+}
+.info_img{
+	width: 115px;
+	height: 115px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	margin: auto;
+	margin-bottom: 18px;
+}
+.desc_title {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.caract_lines{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	z-index: 3;
+	position: absolute;
+}
+#line1{
+	width: 300px;
+	height: 220px;
+	background-image: url("../images/Caracteristicas/1.png");
+	left: 212px;
+	top: 143px;
+}
+#line2{
+	width: 218px;
+	height: 60px;
+	background-image: url("../images/Caracteristicas/2.png");
+	left: 212px;
+    top: 439px;
+}
+#line3{
+	width: 225px;
+	height: 225px;
+	background-image: url("../images/Caracteristicas/3.png");
+	right: 213px;
+	top: 142px;
+}
+#line4{
+	width: 151px;
+	height: 30px;
+	background-image: url("../images/Caracteristicas/4.png");
+	right: 214px;
+	top: 468px;
+}
+#caract_element1{
+	left: 0;
+	top: 96px;
+}
+#caract_element1 .info_img{
+	background-image: url("../images/Caracteristicas/1_capas.png");
+}
+#caract_element2{
+	left: 0;
+	top: 426px;
+}
+#caract_element2 .info_img{
+	background-image: url("../images/Caracteristicas/2_textura.png");	
+}
+#caract_element3{
+	right: 0;
+	top: 96px;
+}
+#caract_element3 .info_img{
+	background-image: url("../images/Caracteristicas/3_centro.png");
+}
+#caract_element4{
+	right: 0;
+	top: 426px;
+}
+#caract_element4 .info_img{
+	background-image: url("../images/Caracteristicas/4_figuras.png");
+}
+#indepth_video {
+    width: 690px;
+    height: 540px;
+    margin: auto;
+    position: relative;
+}
+@media(max-width: 990px){
+	#indepth_caract {
+	    width: 690px;
+	}
+	#caract_ball {
+	    width: 380px;
+	    height: 430px;
+	}
+	.caract_info {
+	    width: 150px;
+	}
+	.info_img {
+	    width: 70px;
+	    height: 70px;
+	}
+	.desc_title {
+	    font-size: 16px;
+	}
+	.info_text {
+	    font-size: 12px;
+	}
+	#caract_element1,
+	#caract_element3 {
+	    top: 130px;
+	}
+	#line1 {
+	    left: 112px;
+	    top: 140px;
+	    width: 263px;
+	}
+	#line2 {
+	    width: 158px;
+	    left: 113px;
+	    top: 425px;
+	}
+	#line3 {
+	    width: 180px;
+	    right: 110px;
+	}
+	#line4 {
+	    right: 113px;
+	    top: 450px;
+	    width: 105px;
+	}
+}
+@media(max-width: 700px){
+	.indepth_element {
+	    height: 640px;
+	}
+	#indepth_ball {
+	    width: 400px;
+	    height: 400px;
+	}
+	#indepth_text {
+	    height: 900px;
+	}
+	#text_container {
+	    width: 450px;
+	    padding-top: 70px;
+	}
+	#text_cita {
+	    font-size: 30px;
+	}
+	#text_credit {
+	    font-size: 18px;
+	}
+	#text_separator {
+	    width: 100px;
+	}
+	#text_hist {
+	    font-size: 20px;
+	}
+	#indepth_info {
+	    background-size: auto 50%;
+	    background-position: center bottom;
+	    background-color: #060B1A;
+	    height: 2200px;
+	}
+	#indepth_caract {
+	    width: 100%;
+	    height: 1870px;
+	}
+	#caract_ball {
+	    width: 100%;
+	    height: 400px;
+	    top: 0;
+	    margin-top: 50px;
+	    background-size: auto 100%;
+	}
+	.caract_element {
+	    width: 100%;
+	    margin: 50px auto auto;
+	    display: inline-block;
+	    float: left;
+	    position: relative;
+	}
+	#caract_element1 {
+	    top: 0px;
+	    height: 270px;
+	}
+	#caract_element2 {
+	    top: 0px;
+	    height: 285px;
+	}
+	#caract_element3 {
+	    top: 0px;
+	    height: 300px;
+	}
+	#caract_element4 {
+	    top: 0px;
+	    height: 285px;
+	}
+	.caract_lines {
+	    display: none;
+	}
+	.info_img {
+	    width: 115px;
+	    height: 115px;
+	}
+	.desc_text {
+	    width: 320px;
+	    margin: auto;
+	}
+	.info_text {
+	    font-size: 16px;
+	}
+	.desc_title {
+	    font-size: 20px;
+	}
+	#indepth_video {
+	    width: 450px;
+	    height: 283px;
+	}
+}
+@media(max-width: 500px){
+	.indepth_element {
+	    height: 480px;
+	}
+	#indepth_ball {
+	    width: 320px;
+	    height: 320px;
+	    bottom: 80px;
+	}
+	#indepth_text {
+	    height: 920px;
+	}
+	#text_container {
+	    width: 300px;
+	    padding-top: 50px;
+	}
+	#text_cita {
+	    font-size: 22px;
+	}
+	#text_credit {
+	    font-size: 14px;
+	}
+	#text_separator {
+	    width: 50px;
+	}
+	#text_hist {
+	    font-size: 16px;
+	    margin-top: 30px;
+	}
+	#indepth_info {
+	    height: 2000px;
+	}
+	#caract_ball {
+		height: 300px;
+	}
+	#indepth_caract {
+	    height: 1720px;
+	}
+	#indepth_video {
+	    width: 320px;
+	    height: 216px;
+	}
+}
