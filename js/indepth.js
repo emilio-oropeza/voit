@@ -35,5 +35,6 @@ function loadDisqus(source, identifier, url) {
 		jQuery('head').append(dsq);
 	}
 };
-
-loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
+$(document).ready(function(){
+	loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
+});
