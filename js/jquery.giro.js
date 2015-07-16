@@ -17,7 +17,7 @@
 				init:function(){
 					window.setInterval(function(){
 						componentObj.methods.next();
-					}, (325));
+					}, (1000));
 				},
 				next:function(){
 					$(target).css({
